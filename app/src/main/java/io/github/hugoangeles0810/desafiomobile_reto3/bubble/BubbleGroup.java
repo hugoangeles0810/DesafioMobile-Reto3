@@ -14,9 +14,6 @@ import android.widget.Button;
 
 import io.github.hugoangeles0810.desafiomobile_reto3.R;
 
-/**
- * Created by hugo on 12/04/17.
- */
 
 public class BubbleGroup extends ViewGroup {
 

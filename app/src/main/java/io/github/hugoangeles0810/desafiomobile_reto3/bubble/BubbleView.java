@@ -11,9 +11,6 @@ import android.util.AttributeSet;
 
 import io.github.hugoangeles0810.desafiomobile_reto3.R;
 
-/**
- * Created by hugo on 12/04/17.
- */
 
 public class BubbleView extends android.support.v7.widget.AppCompatButton {
 

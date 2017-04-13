@@ -4,10 +4,6 @@ import android.content.res.Resources;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
 
-/**
- * Created by hugo on 11/04/17.
- */
-
 public class Utils {
 
     public static int dpToPx(int dp) {
