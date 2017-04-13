@@ -4,7 +4,8 @@ Mi solución del reto 3 de www.belatrixsf.com/desafio-mobile-expert/
 
 ![Interfaz gráfica de la aplicación](https://raw.githubusercontent.com/hugoangeles0810/DesafioMobile-Reto3/master/art/app.gif)
 
-### Como agregarlo a tu diseño
+
+## Como agregarlo a tu diseño
 ```xml
 <io.github.hugoangeles0810.desafiomobile_reto3.bubble.BubbleGroup
         android:id="@+id/bubble_group"
@@ -32,3 +33,6 @@ Mi solución del reto 3 de www.belatrixsf.com/desafio-mobile-expert/
 
     </io.github.hugoangeles0810.desafiomobile_reto3.bubble.BubbleGroup>
 ```
+
+## Manejo del click
+Para implementar un click listener a cada **BubbleView** puede establecer un **BubbleGroup.OnBubbleClickListener** en la instancia del **BubbleGroup**, también puede establecer un **View.OnClickListener** independiente a cada **BubbleView**, tenga en cuenta que estos listeners se pueden solapar.
