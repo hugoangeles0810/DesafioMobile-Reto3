@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BubbleGroup">
+        <attr name="bubble_control_text" format="string" />
+        <attr name="bubble_control_size" format="dimension" />
+        <attr name="bubble_control_color" format="color" />
+        <attr name="bubble_control_radio" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BubbleView">
+        <attr name="bubble_background" format="color" />
+    </declare-styleable>
+</resources>
